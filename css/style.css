@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.header-bg {
+    background-image: -moz-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 89px;
+}
+.logo {
+    background-image: url("../image/logo.png");
+    width: 349px;
+    height: 75px;
+}
+.g-plus {
+    background-image: url("../image/plus.png");
+    width: 44px;
+    height: 43px;
+}
+.youtube {
+    background-image: url("../image/youtube.png");
+    width: 44px;
+    height: 43px;
+}
+.pinin {
+    background-image: url("../image/pin.png");
+    width: 44px;
+    height: 43px;
+}
+.twitter {
+    background-image: url("../image/twitter.png");
+    width: 44px;
+    height: 43px;
+}
+.facebook {
+    background-image: url("../image/fb.png");
+    width: 44px;
+    height: 43px;
+}
+.social-icons::content{
+    height: 100%;
+    display: table;
+}
+
+.social-icons>div{
+    float: right;
+    display: table-cell;
+    vertical-align: middle;
+}
