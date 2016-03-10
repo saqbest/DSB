@@ -8,8 +8,7 @@ body{
     background-image: -webkit-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 89px;
+
 }
 .logo {
     background-image: url("../image/logo.png");
@@ -41,13 +40,179 @@ body{
     width: 44px;
     height: 43px;
 }
-.social-icons::content{
-    height: 100%;
-    display: table;
+.navbar{
+    border: none;
+    margin-bottom: 0;
+}
+.navbar-right{
+    margin-top: 1.5%;
+}
+header {
+    text-align: center;
+    color: #fff;
+}
+.jssorb05 {
+    position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('../image/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('../image/a22.png') center center no-repeat;
+    overflow: hidden;
+}
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+#about{
+    background-color: #f4f3f3;
+}
+#about>h2{
+    font-size: 40px;
+    font-family: "OpenSans";
+    color: rgb(51, 51, 51);
+}
+#about>p{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
 }
 
-.social-icons>div{
-    float: right;
-    display: table-cell;
-    vertical-align: middle;
+.screen-icon1{
+    background-image: url("../image/screen-icon1.png");
+    width: 47px;
+    height: 47px;
+}
+.screen-icon2{
+    background-image: url("../image/screen-icon2.png");
+    width: 47px;
+    height: 47px;
+}
+.screen-icon3{
+    background-image: url("../image/screen-icon3.png");
+    width: 47px;
+    height: 47px;
+}
+.screen-icon4{
+    background-image: url("../image/screen-icon4.png");
+    width: 47px;
+    height: 47px;
+}
+.screen1{
+    background-image: url("../image/screen1.png");
+    width: 259px;
+    height: 480px;
+}
+.screen2{
+    background-image: url("../image/screen2.png");
+    width: 259px;
+    height: 480px;
+}
+.screen3{
+    background-image: url("../image/screen3.png");
+    width: 259px;
+    height: 480px;
+}
+.screen4{
+    background-image: url("../image/screen4.png");
+    width: 259px;
+    height: 480px;
+}
+.screen p{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(102, 102, 102);
+    line-height: 1.286;
+    text-align: center;
+}
+.screen h3{
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.testimonials{
+    background-color: rgb(17, 41, 71);
+    height: 236px;
+    margin-top: 100px;
+}
+.testimonials p{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.125;
+}
+.testimonials-info{
+    margin-top: 55px;
+}
+
+.costomer-img{
+    background-image: url("../image/costomer.png");
+    width: 56px;
+    height: 56px;
+    margin-top: 10px;
+}
+.testimonials-link p{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    font-style: normal;
+}
+.footer-above{
+    background-color: #011732;
+    font-family: "OpenSans";
+    color: rgb(153, 153, 153);
+}
+.footer-above a{
+    color: #ffffff;
+}
+.footer-below{
+    background-color:#010d1d ;
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(153, 153, 153);
+    line-height: 1.429;
+}
+.map-img{
+    background-image: url("../image/map.png");
+}
+.dsb-map{
+    background-color: #ffffff;
+}
+.download-img{
+    background-image: url("../image/btn.png");
+    width: 281px;
+    height: 71px;
+}
+.map-img p,.map-img ul li{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
 }
