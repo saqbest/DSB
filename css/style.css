@@ -114,19 +114,36 @@ header {
 .jssora22r.jssora22rdn { background-position: -310px -31px; }
 #about{
     background-color: #f4f3f3;
+    padding: 40px 10px;
 }
 #about>h2{
     font-size: 40px;
     font-family: "OpenSans";
     color: rgb(51, 51, 51);
+
 }
+
 #about>p{
     font-size: 16px;
     font-family: "OpenSans";
     color: rgb(102, 102, 102);
     line-height: 1.5;
 }
+.mobile-download{
+    height: 180px;
+    background-color: rgb(219, 12, 68);
 
+}
+.mobile-download h3,.mobile-download p{
+    color: #ffffff;
+}
+.screen-info{
+    height: 100px;
+}
+.screen-desc{
+    margin-top: 10px!important;
+    margin-bottom: 20px!important;
+}
 .screen-icon1{
     background-image: url("../image/screen-icon1.png");
     width: 47px;
@@ -173,6 +190,19 @@ header {
     color: rgb(102, 102, 102);
     line-height: 1.286;
     text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .screen p{
+        font-size: 17.324px;
+        font-family: "OpenSans";
+        color: rgb(102, 102, 102);
+        line-height: 1.2;
+    }
+}
+@media screen and (max-width: 768px){
+ .xs-hand{
+    right: 34% !important;
+ }
 }
 .screen h3{
     font-size: 24px;
@@ -240,9 +270,33 @@ header {
     background-color: #ffffff;
 }
 .download-img{
-    background-image: url("../image/btn.png");
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(183, 22, 49);
+    background-image: -moz-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.45);
     width: 281px;
     height: 71px;
+    color: #ffffff;
+    position: relative;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.download-img i{
+    font-size: 40px;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+}
+.download-img span{
+    position: absolute;
+    top: 22px;
+    right: 40px;
 }
 .map-img p,.map-img ul li{
     font-size: 16px;
@@ -310,9 +364,26 @@ header {
     padding: 5px 0;
 }
 .btn-footer-download{
-    background-image: url("../image/btn-footer-download.png");
     width: 171px;
     height: 65px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(29, 51, 80);
+    border-radius: 4px;
+    background-color: rgb(21, 38, 60);
+    padding: 15px 0 15px 15px;
+    color: #2f3e51;
+}
+.btn-footer-download div:first-child{
+    float: left;
+    margin-right: 5px;
+}
+.btn-footer-download div:nth-child(2){
+    font-size: 16px;
+}
+.btn-footer-download div:last-child{
+    font-weight: 800;
+    font-size: 16px;
 }
 .search-form{
     width: 90%;
