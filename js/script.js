@@ -34,10 +34,10 @@ jQuery(document).ready(function ($) {
     //you can remove responsive code if you don't want the slider scales while window resizing
     function ScaleSlider() {
         var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-        var refSize=refSize-15;
+        var refSize=refSize;
         if (refSize) {
             refSize = Math.min(refSize, 1920);
-            jssor_1_slider.$ScaleWidth(refSize-15);
+            jssor_1_slider.$ScaleWidth(refSize);
         }
         else {
             window.setTimeout(ScaleSlider, 30);
